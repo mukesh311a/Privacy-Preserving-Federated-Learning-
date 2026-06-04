@@ -1,0 +1,95 @@
+{
+    "labels": [
+        "Test Accuracy",
+        "Privacy Security",
+        "Robustness",
+        "Comm. Efficiency",
+        "Client Comp. Speed"
+    ],
+    "data": {
+        "Vanilla FedAvg": [
+            8.3,
+            1.0,
+            4.0,
+            7.0,
+            10.0
+        ],
+        "FedProx": [
+            8.5,
+            1.0,
+            7.0,
+            6.0,
+            8.0
+        ],
+        "SCAFFOLD": [
+            8.7,
+            1.0,
+            6.0,
+            8.0,
+            7.0
+        ],
+        "DP-FedAvg": [
+            7.3,
+            9.0,
+            5.0,
+            3.0,
+            9.0
+        ],
+        "FedBN": [
+            8.5,
+            2.0,
+            7.5,
+            7.5,
+            9.0
+        ],
+        "FedNova": [
+            8.6,
+            1.0,
+            6.5,
+            7.5,
+            8.5
+        ],
+        "FLASHE": [
+            8.3,
+            7.0,
+            5.0,
+            5.0,
+            5.5
+        ],
+        "BatchCrypt": [
+            8.3,
+            7.5,
+            5.5,
+            6.0,
+            6.0
+        ],
+        "FL + CKKS HE Only": [
+            8.3,
+            6.0,
+            4.5,
+            4.0,
+            4.0
+        ],
+        "FL + Gradient Compression Only": [
+            8.2,
+            1.5,
+            4.0,
+            9.0,
+            9.5
+        ],
+        "FL + Adaptive DP Only": [
+            8.1,
+            8.5,
+            5.0,
+            6.0,
+            9.0
+        ],
+        "HE-FL-IoT (Proposed)": [
+            8.8,
+            9.8,
+            9.0,
+            7.5,
+            5.5
+        ]
+    }
+}

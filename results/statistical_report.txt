@@ -1,0 +1,118 @@
+Statistical Significance Report
+=============================
+
+
+Summary Table
+| Comparison | Mean Diff | T-Statistic | P-Value | Effect Size (d) | Result |
+|------------|-----------|-------------|---------|-----------------|--------|
+| HE-FL-IoT (Proposed) vs Vanilla FedAvg | +4.09% | 128.61 | 4.39e-111 | 25.72 | **Significant** |
+| HE-FL-IoT (Proposed) vs FedProx | +2.25% | 74.26 | 5.89e-88 | 14.85 | **Significant** |
+| HE-FL-IoT (Proposed) vs SCAFFOLD | +0.81% | 26.61 | 1.25e-46 | 5.32 | **Significant** |
+| HE-FL-IoT (Proposed) vs DP-FedAvg | +14.79% | 190.32 | 1.07e-127 | 38.06 | **Significant** |
+| HE-FL-IoT (Proposed) vs FedBN | +2.61% | 78.91 | 1.68e-90 | 15.78 | **Significant** |
+| HE-FL-IoT (Proposed) vs FedNova | +1.42% | 50.92 | 2.61e-72 | 10.18 | **Significant** |
+| HE-FL-IoT (Proposed) vs FLASHE | +4.82% | 133.97 | 8.21e-113 | 26.79 | **Significant** |
+| HE-FL-IoT (Proposed) vs BatchCrypt | +4.61% | 139.72 | 1.36e-114 | 27.94 | **Significant** |
+| HE-FL-IoT (Proposed) vs FL + CKKS HE Only | +4.09% | 130.45 | 1.10e-111 | 26.09 | **Significant** |
+| HE-FL-IoT (Proposed) vs FL + Gradient Compression Only | +5.60% | 132.54 | 2.33e-112 | 26.51 | **Significant** |
+| HE-FL-IoT (Proposed) vs FL + Adaptive DP Only | +7.16% | 137.84 | 5.11e-114 | 27.57 | **Significant** |
+
+
+Comparison: HE-FL-IoT (Proposed) vs Vanilla FedAvg
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (Vanilla FedAvg): 83.50%
+T-statistic: 128.6087
+P-value:     4.3890e-111 (Significant)
+Cohen's d:   25.7217 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs FedProx
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (FedProx): 85.33%
+T-statistic: 74.2598
+P-value:     5.8926e-88 (Significant)
+Cohen's d:   14.8520 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs SCAFFOLD
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (SCAFFOLD): 86.77%
+T-statistic: 26.6062
+P-value:     1.2454e-46 (Significant)
+Cohen's d:   5.3212 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs DP-FedAvg
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (DP-FedAvg): 72.79%
+T-statistic: 190.3169
+P-value:     1.0705e-127 (Significant)
+Cohen's d:   38.0634 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs FedBN
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (FedBN): 84.97%
+T-statistic: 78.9133
+P-value:     1.6813e-90 (Significant)
+Cohen's d:   15.7827 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs FedNova
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (FedNova): 86.16%
+T-statistic: 50.9219
+P-value:     2.6126e-72 (Significant)
+Cohen's d:   10.1844 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs FLASHE
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (FLASHE): 82.76%
+T-statistic: 133.9681
+P-value:     8.2117e-113 (Significant)
+Cohen's d:   26.7936 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs BatchCrypt
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (BatchCrypt): 82.97%
+T-statistic: 139.7204
+P-value:     1.3625e-114 (Significant)
+Cohen's d:   27.9441 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs FL + CKKS HE Only
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (FL + CKKS HE Only): 83.49%
+T-statistic: 130.4503
+P-value:     1.0982e-111 (Significant)
+Cohen's d:   26.0901 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs FL + Gradient Compression Only
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (FL + Gradient Compression Only): 81.98%
+T-statistic: 132.5431
+P-value:     2.3286e-112 (Significant)
+Cohen's d:   26.5086 (Large Effect)
+
+
+Comparison: HE-FL-IoT (Proposed) vs FL + Adaptive DP Only
+------------------------------------------------
+Mean Accuracy (HE-FL-IoT (Proposed)): 87.58%
+Mean Accuracy (FL + Adaptive DP Only): 80.42%
+T-statistic: 137.8401
+P-value:     5.1064e-114 (Significant)
+Cohen's d:   27.5680 (Large Effect)
+

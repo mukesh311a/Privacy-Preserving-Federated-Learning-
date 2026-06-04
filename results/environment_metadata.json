@@ -1,0 +1,6 @@
+{
+    "Environment": "Windows 11 / Python 3.10",
+    "Hardware": "High-Performance Compute Node (Intel Core i7-12700H, 32GB RAM)",
+    "Total_Seeds": 3,
+    "Seeding_Strategy": "Context-Aware Stochastic Initialization"
+}
